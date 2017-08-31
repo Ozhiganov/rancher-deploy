@@ -12,5 +12,3 @@ COPY ./install/torus-cli.sh /install/torus-cli.sh
 RUN /install/torus-cli.sh
 
 COPY ./bin /usr/bin
-
-SHELL ["/bin/bash"]
